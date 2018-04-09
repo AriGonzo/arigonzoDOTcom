@@ -41,5 +41,5 @@ app.use(express.static('./node_modules'));
 require('./routes/htmlRoutes.js')(app);
 
 app.listen(server_port, server_ip_address, function(){
-	console.log('Listening on', server_port);
+	console.log('Listening on', server_port, server_ip_address);
 });
