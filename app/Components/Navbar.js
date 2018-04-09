@@ -15,10 +15,8 @@ export default class Navbar extends React.Component {
         	<div className={"ag-nav"}>
                 <ul>
                     <li><Link to="/about">About</Link></li>
-                    <li><Link to="/projects">Projects</Link></li>
                     <li><Link to="/">AriGonzo.com</Link></li>
-                    <li><Link to="/resume">Resume</Link></li>
-                    <li><Link to="/blog">Blog</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
                 </ul>
         	</div>
         );

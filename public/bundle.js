@@ -12767,15 +12767,6 @@ var Navbar = function (_React$Component) {
                         null,
                         _react2.default.createElement(
                             _reactRouterDom.Link,
-                            { to: '/projects' },
-                            'Projects'
-                        )
-                    ),
-                    _react2.default.createElement(
-                        'li',
-                        null,
-                        _react2.default.createElement(
-                            _reactRouterDom.Link,
                             { to: '/' },
                             'AriGonzo.com'
                         )
@@ -12785,17 +12776,8 @@ var Navbar = function (_React$Component) {
                         null,
                         _react2.default.createElement(
                             _reactRouterDom.Link,
-                            { to: '/resume' },
-                            'Resume'
-                        )
-                    ),
-                    _react2.default.createElement(
-                        'li',
-                        null,
-                        _react2.default.createElement(
-                            _reactRouterDom.Link,
-                            { to: '/blog' },
-                            'Blog'
+                            { to: '/projects' },
+                            'Projects'
                         )
                     )
                 )
