@@ -1,0 +1,230 @@
+body {
+	background: #EAE4E4;
+	color: #784D7B;
+}
+
+p {
+  font-size: 17px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+/* Navbar */
+
+.ag-nav {
+	position: absolute;
+    left: 0;
+    right: 0;
+    padding: 15px 150px;
+    color: #EAE4E4;
+    background: #784D7B;
+
+}
+
+.ag-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.ag-nav ul li {
+	list-style-type: none;
+}
+
+.ag-nav ul li a {
+	color: #EAE4E4;
+}
+
+/*Center Info*/
+
+.landingWrapper {
+	height: 100vh;
+ 	display: flex;
+  	flex-direction: column;
+  	justify-content: space-evenly;
+  	overflow: auto;
+}
+
+.bg {
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50vh;
+    background: #784D7B;
+    z-index: -2;
+}
+
+.landingPage {
+	font-family: 'Special Elite', cursive;
+  	overflow: auto;
+  	color: #EAE4E4;
+}
+
+.landingWrapper a {
+	text-align: center;
+}
+
+.landingWrapper button {
+	margin: 0 auto;
+}
+
+.landingWrapper .contactBar {
+    font-size: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+.landingWrapper .contactBar a {
+	color: #784D7B;
+	margin: 20px;
+}
+
+/* Button Styling */
+
+.ag-button {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #E65F64;
+	border-color: #E65F64;
+	border-radius: 0;
+	padding: 6px 35px;
+	font-size: 25px;
+	color: #EAE4E4;
+}
+
+.ag-button:hover, .ag-button:focus {
+	background-color: #784D7B;
+	border-color: #784D7B;
+}
+
+/*Select Dropdown on Landing*/
+
+.styled-select {
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.styled-select select {
+   cursor: pointer;
+   background: transparent;
+   border: none;
+   height: 29px;
+   padding: 5px; 
+}
+
+.styled-select.slate {
+   background: url(../images/dropdown.jpg) no-repeat right center;
+   height: 34px;
+   width: 240px;
+}
+
+.styled-select.slate select {
+   border: 0px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+}
+
+
+.subPageHeader {
+  font-size: 18px;
+  color: white;
+  margin: 0;
+  background: #E65F64;
+  padding: 7px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.subPageContent {
+  margin-top: 35px;
+}
+
+/* About Page */
+.aboutContainer {
+	margin-top: 75px;
+	display: flex;
+}
+
+.aboutContainer p {
+  text-align: justify;
+}
+
+.aboutContainer .imageWrapper {
+	flex-grow: 0;
+    height: 60%;
+    width: auto;
+}
+
+.banner8Bit {
+  float: left;
+  width: 300px;
+}
+
+.aboutContainer .info {
+	flex-grow: 2;
+	font-family: 'Encode Sans', sans-serif;
+}
+
+
+/* Project Page */
+.listContainer {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+
+.listContainer .list {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.listContainer .list > div {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.listContainer .list > div:hover {
+  text-decoration: underline;
+}
+
+.list p {
+    font-size: 24px;
+}
+
+.listContainer .show {
+  flex-grow: 4;
+}
+
+.listContainer .show h3 {
+  margin: 0;
+}
+
+.source i {
+  vertical-align: bottom;
+}
+
+.projectImage {
+  height: 400px;
+}
+
+.techList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.techList .techListItem {
+  display: inline-block;
+}
