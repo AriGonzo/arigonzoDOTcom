@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 // Create Instance of Express
 var app = express();
 // var PORT = process.env.PORT || 4000; // Sets an initial port. We'll use this later in our listener
-var server_port = process.env.OPENSHIFT_NODEJS_PORT || 4000
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
 var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
 // Run Morgan for Logging
 app.use(bodyParser.json());
